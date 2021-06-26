@@ -1,0 +1,44 @@
+body{
+    background-color: black;
+}
+.switch-container{
+    width:80px;
+    height:50px;
+    background-color: lightgrey;
+    position: relative;
+}
+.back{
+    width:50px;
+    height:20px;
+    border-radius: 50px;
+    position:absolute;
+    left:40px;
+    top:25px;
+    transform:translate(-50%, -50%);
+    transition:0.3s ease;
+
+}
+.back.blue{
+    background-color: lightblue;
+}
+.back.red{
+    background-color: lightcoral;
+}
+
+.switch{
+    width:30px;
+    height:30px;
+    border-radius: 50px;
+    position:absolute;
+    top:25px;
+    transform:translate(-50%, -50%);
+    transition:0.3s ease;
+}
+.switch.blue{
+    left:20px;
+    background-color: blue;
+}
+.switch.red{
+    left:60px;
+    background-color: red;
+}

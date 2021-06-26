@@ -1,0 +1,19 @@
+{
+    "name": "Red Blue Scratch Topbar Switch",
+    "description": "Creates a switch you can use to change the topbar of the Scratch homepage from blue to red, or back to blue.",
+    "version": "1.0",
+    "manifest_version": 2,
+    "permissions": ["tabs", "storage"],
+    "content_scripts":[
+        {
+          "matches":["https://scratch.mit.edu/*"],
+          "js":["content.js"]
+        }
+      ],
+      "browser_action": {
+        "default_icon": "scratch.png",
+        "default_popup": "popup.html"
+      }
+      
+
+  }
